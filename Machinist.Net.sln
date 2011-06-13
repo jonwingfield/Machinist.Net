@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net", "Machinist.Net\Machinist.Net.csproj", "{ED9BEACB-01F3-425C-BA6D-2B137A8D7193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net.Tests", "Machinist.Net.Tests\Machinist.Net.Tests.csproj", "{C565693A-85B0-42C5-A869-38374F51440F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB619E30-CF73-4DF0-A01B-34C837186165}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Machinist.Net.vsmdi = Machinist.Net.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net.Drivers.EntityFramework", "Machinist.Net.Drivers.EntityFramework\Machinist.Net.Drivers.EntityFramework.csproj", "{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Machinist.Net.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9BEACB-01F3-425C-BA6D-2B137A8D7193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9BEACB-01F3-425C-BA6D-2B137A8D7193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9BEACB-01F3-425C-BA6D-2B137A8D7193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9BEACB-01F3-425C-BA6D-2B137A8D7193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C565693A-85B0-42C5-A869-38374F51440F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C565693A-85B0-42C5-A869-38374F51440F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C565693A-85B0-42C5-A869-38374F51440F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C565693A-85B0-42C5-A869-38374F51440F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
