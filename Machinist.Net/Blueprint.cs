@@ -3,85 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Machinist.Net.Drivers;
+using System.Text.RegularExpressions;
+using System.Reflection;
 
 namespace Machinist.Net
 {
-    public abstract class BlueprintBase
+    public class Blueprint
     {
-        private int _serial_number = 1;
+        public Blueprint()
+        {
+            Driver = new NullActiveRecordDriver();
+            BlueprintDefinition.Inst = DefinitionLoader.Load(Assembly.GetCallingAssembly());
+        }
 
-        public BlueprintBase() { Init(); Driver = new NullActiveRecordDriver(); }
-
-        private Dictionary<Type, Func<object>> _blueprints = new Dictionary<Type, Func<object>>();
+        public Blueprint(BlueprintDefinition def)
+        {
+            Driver = new NullActiveRecordDriver();
+            BlueprintDefinition.Inst = def;
+        }
 
         public IActiveRecordDriver Driver { get; set; }
 
-        protected abstract void Init();
-
-        protected void Blueprint<T>()
-            where T : new()
+        public T Make<T>(Action<T> overrides = null) where T : class
         {
-            _blueprints.Add(typeof(T), () =>
-            {
-                var t = new T();
-                StubObject(t);
-                return t;
-            });
-        }
+            T obj = BlueprintDefinition.Inst.Get<T>();
+            if (overrides != null)
+                overrides(obj);
 
-        protected void Blueprint<T>(Action<T> stubs)
-            where T : new()
-        {
-            _blueprints.Add(typeof(T), () => 
-                {
-                    var t = new T();
-                    StubObject(t);
-                    stubs(t);
-                    return t;
-                });
-        }
-
-        protected int serial_number
-        {
-            get { return _serial_number++; }
-        }
-
-        public T For<T>() where T : class
-        {
-            T obj = (T)_blueprints[typeof(T)]();
             Driver.Save(obj);
             return obj;
         }
 
-        protected List<T> listOf<T>(int count)
+        public T Make<T>(string blueprintName, Action<T> overrides = null) where T : class
         {
-            return Enumerable.Range(0, count)
-                             .Select(x => _blueprints[typeof(T)]())
-                             .Cast<T>()
-                             .ToList();
-        }
-
-        private void StubObject<T>(T obj)
-        {
-            foreach (var property in typeof(T).GetProperties())
-            {
-                if (property.GetValue(obj, null) == null)
-                {
-                    if (_blueprints.ContainsKey(property.PropertyType))
-                    {
-                        property.SetValue(obj, _blueprints[property.PropertyType](), null);
-                    }
-                    else if (property.PropertyType.GetInterface("IEnumerable`1") != null &&
-                             _blueprints.ContainsKey(property.PropertyType.GetInterface("IEnumerable`1").GetGenericArguments()[0]))
-                    {
-                        Type argType = property.PropertyType.GetInterface("IEnumerable`1").GetGenericArguments()[0];
-
-                        property.SetValue(obj, 
-                            Activator.CreateInstance(typeof(List<>).MakeGenericType(argType)),
-                            null);
-                    }
-                }
-            }
+            T obj = BlueprintDefinition.Inst.Get<T>(blueprintName);
+            if (overrides != null)
+                overrides(obj);
+            
+            Driver.Save(obj);
+            return obj;
         }
     }
 }

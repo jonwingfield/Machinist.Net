@@ -12,9 +12,9 @@ namespace Machinist.Net.Tests
     [TestClass]
     public class ActiveRecordBlueprintTests
     {
-        private Blueprints GetBlueprints(DbContext context)
+        private Blueprint GetBlueprints(DbContext context)
         {
-            Blueprints bp = new Blueprints();
+            Blueprint bp = new Blueprint();
             bp.Driver = new Machinist.Net.Drivers.EntityFramework.EntityFrameworkActiveRecordDriver(context);
             return bp;
         }
@@ -26,7 +26,7 @@ namespace Machinist.Net.Tests
             {
                 var blueprints = GetBlueprints(context);
 
-                var user = blueprints.For<User>();
+                var user = blueprints.Make<User>();
 
                 context.Database.Connection.Close();
 

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Faker">
+      <HintPath>..\..\Faker.Net\Faker.Net\bin\Debug\Faker.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
@@ -41,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blueprint.cs" />
+    <Compile Include="BlueprintDefinitions.cs" />
+    <Compile Include="DefinitionLoader.cs" />
     <Compile Include="Drivers\IActiveRecordDriver.cs" />
     <Compile Include="Drivers\NullActiveRecordDriver.cs" />
-    <Compile Include="ObjectExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sham.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

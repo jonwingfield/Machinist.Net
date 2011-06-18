@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="C565693A-85B0-42C5-A869-38374F51440F" ModuleId="Machinist.Net.Tests" />
+  <Module PersistentId="ED9BEACB-01F3-425C-BA6D-2B137A8D7193" ModuleId="Machinist.Net" />
+  <Module PersistentId="044C8D1D-D0E7-42BA-B27B-0DD132E1AAED" ModuleId="Machinist.Net.Drivers.EntityFramework" />
+</Modules>
