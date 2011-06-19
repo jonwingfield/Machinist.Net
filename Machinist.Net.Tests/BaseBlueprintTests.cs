@@ -19,7 +19,7 @@ namespace Machinist.Net.Tests
             });
             Blueprint<User>("Admin", user =>
             {
-                user.Username = "Admin"; 
+                user.Username = "Admin";
             });
             Blueprint<Post>(post =>
             {
@@ -34,9 +34,14 @@ namespace Machinist.Net.Tests
             }).WithAssociations();
             Blueprint<PostContainer>(container =>
             {
-                container.Posts = listOf<Comment>(4);
+                container.Posts = ListOf<Comment>(4);
                 container.Id = 5;
             }).WithAssociations();
+            Blueprint<Post>("ExplicitAssociation", post =>
+            {
+                post.Author = Make<User>("Admin");
+                post.Title = "Explicit Association";
+            });
         }
     }
 
@@ -110,6 +115,12 @@ namespace Machinist.Net.Tests
 
             Assert.IsNotNull(post.Author);
             Assert.AreEqual("user1", post.Author.Username);
+        }
+        
+        [TestMethod]
+        public void ExplicitAssociation()
+        {
+            Assert.AreEqual("Admin", blueprints.Make<Post>("ExplicitAssociation").Author.Username);
         }
 
         [TestMethod]

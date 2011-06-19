@@ -10,43 +10,48 @@
     <RecentFiles>
       <File id="C565693A-85B0-42C5-A869-38374F51440F/f:packages.config" caret="0" fromTop="0" />
       <File id="C565693A-85B0-42C5-A869-38374F51440F/f:App.config" caret="0" fromTop="0" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="472" fromTop="17" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="4666" fromTop="18" />
       <File id="C565693A-85B0-42C5-A869-38374F51440F/d:Models/d:ActiveRecord/f:Blog.cs" caret="289" fromTop="13" />
       <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="1713" fromTop="26" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="978" fromTop="0" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="1450" fromTop="17" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:DefinitionLoader.cs" caret="179" fromTop="8" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="760" fromTop="5" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="13" fromTop="0" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ActiveRecordBlueprintTests.cs" caret="458" fromTop="9" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/d:Drivers/f:BlogDbContext.cs" caret="0" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="0" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2826" fromTop="29" />
     </RecentFiles>
     <RecentEdits>
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="8082" fromTop="25" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="1515" fromTop="28" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="658" fromTop="22" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="1273" fromTop="22" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="1697" fromTop="31" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="709" fromTop="17" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="2840" fromTop="22" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="4701" fromTop="39" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="3962" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="735" fromTop="15" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="4617" fromTop="21" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="7178" fromTop="28" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="7056" fromTop="27" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="575" fromTop="16" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="613" fromTop="18" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="6858" fromTop="18" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="965" fromTop="22" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="943" fromTop="18" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="534" fromTop="8" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="4192" fromTop="16" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="1412" fromTop="26" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="1188" fromTop="19" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="1038" fromTop="13" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="462" fromTop="13" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="1004" fromTop="16" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="1663" fromTop="33" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="1753" fromTop="26" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="372" fromTop="10" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="694" fromTop="18" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="1650" fromTop="18" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="0" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="243" fromTop="31" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="243" fromTop="20" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="243" fromTop="2" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3257" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3159" fromTop="9" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="6217" fromTop="21" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2113" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2299" fromTop="7" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1689" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1989" fromTop="7" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="241" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="5966" fromTop="31" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2760" fromTop="31" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="585" fromTop="12" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1243" fromTop="29" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3544" fromTop="9" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="882" fromTop="25" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4667" fromTop="7" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="5966" fromTop="2" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4105" fromTop="27" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4105" fromTop="7" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="1090" fromTop="31" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="983" fromTop="13" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4025" fromTop="16" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="281" fromTop="8" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3796" fromTop="16" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="453" fromTop="12" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="1927" fromTop="14" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4105" fromTop="20" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
