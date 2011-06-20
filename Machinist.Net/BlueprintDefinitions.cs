@@ -50,6 +50,7 @@ namespace Machinist.Net
         //private readonly Dictionary<Type, Dictionary<string, BlueprintInfo>> _namedBlueprints = new Dictionary<Type, Dictionary<string, BlueprintInfo>>();
 
         internal static BlueprintDefinition Inst;
+        private Random _random = new Random(1);
 
         public BlueprintDefinition()
         {
@@ -81,6 +82,11 @@ namespace Machinist.Net
         protected int sn
         {
             get { return serial_number; }
+        }
+
+        protected Random Rand
+        {
+            get { return _random; }
         }
 
         protected List<T> ListOf<T>(int count)

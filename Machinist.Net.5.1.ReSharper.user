@@ -11,47 +11,50 @@
       <File id="C565693A-85B0-42C5-A869-38374F51440F/f:packages.config" caret="0" fromTop="0" />
       <File id="C565693A-85B0-42C5-A869-38374F51440F/f:App.config" caret="0" fromTop="0" />
       <File id="C565693A-85B0-42C5-A869-38374F51440F/d:Models/d:ActiveRecord/f:Blog.cs" caret="289" fromTop="13" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="1713" fromTop="26" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="1450" fromTop="17" />
       <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:DefinitionLoader.cs" caret="179" fromTop="8" />
-      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="760" fromTop="5" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="13" fromTop="0" />
       <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ActiveRecordBlueprintTests.cs" caret="458" fromTop="9" />
       <File id="C565693A-85B0-42C5-A869-38374F51440F/d:Drivers/f:BlogDbContext.cs" caret="0" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="0" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2826" fromTop="29" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:ShamTests.cs" caret="928" fromTop="34" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Sham.cs" caret="1713" fromTop="59" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:IObjectBlueprint.cs" caret="154" fromTop="7" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="1001" fromTop="24" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:Blueprint.cs" caret="1105" fromTop="26" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1456" fromTop="10" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="218" fromTop="9" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2743" fromTop="15" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="1098" fromTop="6" />
     </RecentFiles>
     <RecentEdits>
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="0" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="243" fromTop="31" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="243" fromTop="20" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="243" fromTop="2" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3257" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3159" fromTop="9" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="6217" fromTop="21" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2113" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2299" fromTop="7" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1689" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1989" fromTop="7" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="241" fromTop="0" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="5966" fromTop="31" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2760" fromTop="31" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="585" fromTop="12" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1243" fromTop="29" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3544" fromTop="9" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="882" fromTop="25" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4667" fromTop="7" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="5966" fromTop="2" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4105" fromTop="27" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4105" fromTop="7" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="1090" fromTop="31" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="983" fromTop="13" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4025" fromTop="16" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="281" fromTop="8" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3796" fromTop="16" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="453" fromTop="12" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:InterpolatedStringParser.cs" caret="1927" fromTop="14" />
-      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="4105" fromTop="20" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1729" fromTop="22" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1729" fromTop="21" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:IObjectBlueprint.cs" caret="289" fromTop="11" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1729" fromTop="30" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1729" fromTop="12" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1729" fromTop="10" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="50" fromTop="0" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="4130" fromTop="31" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="3332" fromTop="16" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="2674" fromTop="24" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1630" fromTop="27" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="799" fromTop="12" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:IObjectBlueprint.cs" caret="154" fromTop="7" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1490" fromTop="25" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="748" fromTop="11" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2408" fromTop="11" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2311" fromTop="24" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1222" fromTop="14" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="1964" fromTop="15" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="748" fromTop="20" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="667" fromTop="17" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprintCollection.cs" caret="1037" fromTop="13" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1405" fromTop="16" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="1966" fromTop="22" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="3126" fromTop="18" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="3288" fromTop="15" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:ObjectBlueprint.cs" caret="3042" fromTop="21" />
+      <File id="ED9BEACB-01F3-425C-BA6D-2B137A8D7193/f:BlueprintDefinitions.cs" caret="2742" fromTop="15" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="1131" fromTop="16" />
+      <File id="C565693A-85B0-42C5-A869-38374F51440F/f:BaseBlueprintTests.cs" caret="1420" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

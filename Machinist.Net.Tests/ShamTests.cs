@@ -14,6 +14,8 @@ namespace Machinist.Net.Tests
             Sham.Generate("CatchPhrase", Faker.Company.CatchPhrase);
             Sham.Match("Username", Faker.Name.FirstName);
             Sham.Match(".ody", () => "String");
+            Sham.Generate("CoinToss", () => Rand.Next(2));
+            Sham.Generate("NotUniqueCoinToss", () => Rand.Next(2), unique: false);
 
             Blueprint<User>().WithShams();
             Blueprint<User>("NoShams");
@@ -21,6 +23,14 @@ namespace Machinist.Net.Tests
             {
                 x.Title = Sham.Get.CatchPhrase;
             }).WithShams();
+            Blueprint<User>("Unique", x =>
+            {
+                x.Username = Sham.Get.CoinToss.ToString();
+            });
+            Blueprint<User>("NotUnique", x =>
+            {
+                x.Username = Sham.Get.NotUniqueCoinToss.ToString();
+            });
         }
     }
 
@@ -44,8 +54,8 @@ namespace Machinist.Net.Tests
         [TestMethod]
         public void BasicSham()
         {
-            Assert.AreEqual("Delpha", blueprints.Make<User>().Username);
-            Assert.AreEqual("Bernita", blueprints.Make<User>().Username);
+            Assert.AreEqual("Kayley", blueprints.Make<User>().Username);
+            Assert.AreEqual("Miguel", blueprints.Make<User>().Username);
         }
 
         [TestMethod]
@@ -58,6 +68,31 @@ namespace Machinist.Net.Tests
         public void UseShamsInBlueprint()
         {
             Assert.AreEqual("Ergonomic background implementation", blueprints.Make<Post>().Title);
+        }
+
+        [TestMethod]
+        public void UniqueByDefault()
+        {
+            Assert.AreEqual("0", blueprints.Make<User>("Unique").Username);
+            Assert.AreEqual("1", blueprints.Make<User>("Unique").Username);
+        }
+
+        [TestMethod]
+        public void NotUnique()
+        {
+            Assert.AreEqual("0", blueprints.Make<User>("NotUnique").Username);
+            Assert.AreEqual("0", blueprints.Make<User>("NotUnique").Username);
+            Assert.AreEqual("0", blueprints.Make<User>("NotUnique").Username);
+            Assert.AreEqual("1", blueprints.Make<User>("NotUnique").Username);
+        }
+
+        [ExpectedException(typeof(ApplicationException))]
+        [TestMethod]
+        public void NoMoreUniqueValues()
+        {
+            blueprints.Make<User>("Unique");
+            blueprints.Make<User>("Unique");
+            blueprints.Make<User>("Unique");
         }
     }
 }

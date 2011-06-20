@@ -48,6 +48,7 @@
     <Compile Include="DefinitionLoader.cs" />
     <Compile Include="Drivers\IActiveRecordDriver.cs" />
     <Compile Include="Drivers\NullActiveRecordDriver.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="InterpolatedStringParser.cs" />
     <Compile Include="IObjectBlueprint.cs" />
     <Compile Include="ObjectBlueprint.cs" />
