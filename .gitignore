@@ -4,3 +4,4 @@ TestResults
 *~
 *.swp
 _ReSharper*
+*.ReSharper.User
