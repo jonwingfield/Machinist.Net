@@ -42,6 +42,7 @@ namespace Machinist.Net.Tests
                 post.Author = Make<User>("Admin");
                 post.Title = "Explicit Association";
             });
+            Blueprint<EdgeCases>();
         }
     }
 
@@ -106,6 +107,18 @@ namespace Machinist.Net.Tests
         public void AssociationsNotGeneratedByDefault()
         {
             Assert.IsNull(blueprints.Make<Post>("NoAssociations").Author);
+        }
+
+        [TestMethod]
+        public void NoValueGeneratedForUnspecifiedProperty()
+        {
+            Assert.IsNull(blueprints.Make<Post>("NoAssociations").Title);
+        }
+
+        [TestMethod]
+        public void NoSetterTest()
+        {
+            Assert.AreEqual("", blueprints.Make<EdgeCases>().NoSetterString);
         }
 
         [TestMethod]

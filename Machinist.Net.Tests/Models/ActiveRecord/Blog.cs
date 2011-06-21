@@ -33,4 +33,12 @@ namespace Machinist.Net.Tests.Models.ActiveRecord
         public List<Comment> Posts { get; set; }
         public int Id { get; set; }
     }
+
+    public class EdgeCases
+    {
+        public string NoSetterString
+        {
+            get { return ""; }
+        }
+    }
 }

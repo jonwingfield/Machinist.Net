@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net.Drivers.EntityFramework", "Machinist.Net.Drivers.EntityFramework\Machinist.Net.Drivers.EntityFramework.csproj", "{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net.Drivers.Massive", "Machinist.Net.Drivers.Massive\Machinist.Net.Drivers.Massive.csproj", "{509DBBA6-A964-40C7-A747-61B7AE883F2A}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Machinist.Net.vsmdi
@@ -35,6 +37,10 @@ Global
 		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{044C8D1D-D0E7-42BA-B27B-0DD132E1AAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509DBBA6-A964-40C7-A747-61B7AE883F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509DBBA6-A964-40C7-A747-61B7AE883F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509DBBA6-A964-40C7-A747-61B7AE883F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509DBBA6-A964-40C7-A747-61B7AE883F2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

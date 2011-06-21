@@ -49,7 +49,7 @@ namespace Machinist.Net
 
         private void StubObject(T obj)
         {
-            foreach (var property in typeof(T).GetProperties())
+            foreach (var property in typeof(T).GetProperties().Where(prop => prop.GetSetMethod() != null))
             {
                 object val = property.GetValue(obj, null);
                 if (val == null)

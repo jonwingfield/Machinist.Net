@@ -52,7 +52,7 @@ namespace Machinist.Net
         internal static BlueprintDefinition Inst;
         private Random _random = new Random(1);
 
-        public BlueprintDefinition()
+        protected BlueprintDefinition()
         {
             _blueprints = new ObjectBlueprintCollection(_shamDef);
         }
