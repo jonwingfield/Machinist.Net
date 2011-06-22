@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net.Drivers.Entit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machinist.Net.Drivers.Massive", "Machinist.Net.Drivers.Massive\Machinist.Net.Drivers.Massive.csproj", "{509DBBA6-A964-40C7-A747-61B7AE883F2A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{E69C4EA4-8DCB-43E7-9141-6DC5CF7DEA5B}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Machinist.Net.vsmdi
